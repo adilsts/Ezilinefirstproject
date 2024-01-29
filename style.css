@@ -1,0 +1,743 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open sans;
+    box-sizing: border-box;
+   
+}
+header {
+    width: 100%;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    position: fixed;
+    background: #fff;
+
+
+}
+.container {
+    width: 1220px;
+    position: relative;
+    margin: auto ;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    align-items: start;
+}
+nav> ul> li {
+    padding: 26px  18px ;
+    list-style: none;
+}
+nav > ul > li> a {
+   color: #666;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+nav > ul > li> a > i{
+    font-size:  7px;
+    padding-left: 5px;
+  
+ }
+ 
+
+.logo {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > img {
+margin-left: 10px;
+
+}
+.top-btn {
+    
+margin-top: 25px;
+margin-right: 18px;
+
+
+}
+.top-btn a {
+    text-decoration: none;
+    color: #fff;
+    background: #f9c03d;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 16px 18px;
+    border: 1px hidden #f9c03d;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+}
+.top-btn :hover {
+    background:  #ffb300;
+}
+
+.megamenu  {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    font-size: 17px;
+    transition: .2s;
+    left: 0px;
+    box-shadow: 0px 5px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    display: flex;
+    background: #fff;
+    
+}
+.container nav ul :hover   .megamenu {
+   visibility: visible; 
+
+}
+.megamenuitems{
+    flex-basis: 25%;
+    max-width: 305px;
+    margin-left: 20px;
+}
+.megamenuitems ul li {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.megamenuitems ul li a {
+    text-decoration: none;
+    color: rgb(91, 88, 88);
+    font-weight: 500;
+}
+
+.megamenuitems h4 {
+    color: rgb(91, 88, 88);
+    margin-top: 20px;
+    padding: 7px 10px;
+}
+
+.megamenuitems i {
+    padding: 12px 20px;
+    font-size: 8px;
+}
+.dropdown {
+    position: absolute;
+    top: 95%;
+    box-shadow: 2px 5px 10px .5px rgb(220, 216, 216);
+    background: #fff; 
+    visibility: hidden;
+    
+     
+    
+}
+.dropdown ul li {
+    list-style: none;
+    padding: 10px 15px;
+    width: 250px;
+  
+    
+}
+.dropdown ul li a {
+    text-decoration: none;
+    color: rgb(101, 99, 99);
+    font-weight: 400;
+    font-size: 17px;
+}
+.dropdown ul li a i {
+font-size:  7px;
+padding-left: 5px;
+
+}
+
+.container nav ul :hover   .dropdown   {
+   visibility: visible;
+   
+}
+
+.dropdown-aboutus {
+    position: absolute;
+    top: 4%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+}
+
+.container nav ul  .dropdown > ul  :hover   .dropdown-aboutus  {
+    visibility: visible;
+ }
+
+ 
+.dropdown-services {
+    position: absolute;
+    top: 13%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-services {
+    visibility: visible;
+ }
+
+ .dropdown-pricing {
+    position: absolute;
+    top: 21%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-pricing {
+    visibility: visible;
+ }
+ .dropdown-team {
+    position: absolute;
+    top: 29.5%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-team {
+    visibility: visible;
+ }
+.dropdown-mission {
+    position: absolute;
+    top: 37.5%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-mission {
+    visibility: visible;
+ }
+ .dropdown-awards {
+    position: absolute;
+    top: 45.5%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-awards {
+    visibility: visible;
+ }
+ .dropdown-whychooseus {
+    position: absolute;
+    top: 54%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-whychooseus {
+    visibility: visible;
+ }
+
+ .dropdown-comingsoon {
+    position: absolute;
+    top: 62%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-comingsoon {
+    visibility: visible;
+ }
+.dropdown-testimonials  {
+    position: absolute;
+    top: 71%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-testimonials {
+    visibility: visible;
+ }
+ .dropdown-404 {
+    position: absolute;
+    top: 79%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-404 {
+    visibility: visible;
+ }
+
+ .dropdown-faq{
+    position: absolute;
+    top: 87%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-faq {
+    visibility: visible;
+ }
+
+ .dropdown-other {
+    position: absolute;
+    top: 96%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-other {
+    visibility: visible;
+ }
+
+ .dropdown-portfoliodetails  {
+    position: absolute;
+    top: 75%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-portfoliodetails {
+    visibility: visible;
+ }
+
+ .dropdown-casestudies  {
+    position: absolute;
+    top: 91%;
+    left: -250px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 5px 1px 10px .5px rgb(220, 216, 216);
+    visibility: hidden;
+    
+}
+.container nav ul  .dropdown > ul :hover   .dropdown-casestudies {
+    visibility: visible;
+ }
+/* Second Part of Website */
+.main-container {
+  margin-left: 70px;
+}
+.row {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.col-1 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-1 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-1 h1 {
+    font-size: 55px;
+    font-weight:bolder;
+    line-height: 60px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    margin: 25px 0;
+    padding-bottom: 20px;  
+}
+
+.col-1 p {
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color:darkgray;
+}
+
+.btn a {
+   margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #f9c03d;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 16px 18px;
+    border: 1px hidden #f9c03d;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+}
+
+ .btn :hover {
+   background:  #ffb300;
+}
+
+
+.btn-1 a {
+    margin-right: 20px;
+    text-decoration: none;
+    background: none;
+    color: black;
+    border: 1px solid #abb8c3;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 16px 18px;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+}
+
+.btn-1 :hover {
+    border: 1px solid black;
+}
+
+.col-2 {
+    margin-top: 50px;
+    display: flex;
+    flex-basis: 33%  ;
+ 
+    min-width: 300px;
+}
+
+.col-2-1 h4{
+   margin-left: 30px;
+   margin-bottom: 20px;
+}
+.col-2-1 p{
+    margin-left: 30px;
+    color: darkgrey;
+ }
+.soft-details  {
+    padding-top: 8rem;
+    text-align: center;
+}
+.soft-details h1 {
+    padding-bottom: 30px;
+}
+.soft-details p {
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: #888585;
+}
+.col{
+    display: flex;
+}
+.col-3 {  
+    flex-basis: 50%;
+    min-width: 600px;
+    margin-top: 30px;   
+}
+
+.col-3-1 {
+    display: flex;
+    position: relative;
+    z-index:-100;   
+ 
+}
+
+.col-3-1-1 img {
+    width: 305px;
+    height: 350px; 
+}
+.col-3-1-2{
+   position: absolute;
+   top: 27%;
+   left: 25%;
+}
+.col-3-1-2 img {
+    width: 300px;
+    height: 340px; 
+}
+.col-3-1-3{
+    position: absolute;
+    top:65.5%;
+    left: 41.3%;
+    z-index: 0;
+ }
+.col-3-1-3 img{
+    width: 300px;
+    height: 325px; 
+ }
+.col-3-2 {
+   display: flex;
+   margin-left: 80px;
+   margin-top: 10px;
+}
+.col-3-2-1 i {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    color: green;
+}
+.col-3-2-1 h4 {
+    margin-left: 25px;
+    padding-bottom: 18px;   
+}
+.col-3-2-1 p {
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.col-3-2-1 .btn {
+    margin-left: 25px;  
+}
+.col-3-2-1 .btn-lm{
+    padding-top: 20px;
+}
+
+.grey-container {
+    width: 100%;
+    background: #ebe9eb;
+    padding-bottom: 2rem;
+}
+.soft-details-01 {
+    margin-top: 12rem;
+}
+.soft-details-01 h1 {
+    padding-top: 8rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+.col-4 {
+    flex-basis: 25%;
+    min-width: 300px;
+}
+.col-4 img {
+    max-width: 75%;
+    height: 180px;
+    margin-left: 5rem;
+}
+.col-4 h1 {
+    padding-bottom: 1rem;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.col-4 p {
+    color: #888585;
+}
+.col-5 {
+    padding-top: 1rem;
+    flex-basis: 50%;
+    width: 600px; 
+}
+.col-5 img {
+    margin-top: 3rem;
+    max-width: 93%;
+}
+.col-5-1 {
+    padding-bottom: 8rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+.col-5-1 h2 {
+    margin-top: 0;
+    padding-bottom: 3rem ;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.col-5-1 p {
+    padding-bottom: 3rem;
+    line-height: 1.4;
+    font-size: 20px;
+    color: #888585;
+}
+.col-6 {
+    flex-basis: 30%;
+    min-width: 300px;
+    background: #fff;
+    padding: 20px 5px ;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid #d6dee5;   
+}
+.col-6-1 img {
+    max-width: 50%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.col-6-1 h2 {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.col-6-1 p {
+    padding-bottom: 4rem;
+    color: #888585;
+}
+.col-6-ex {
+    margin-right: 4.5rem;
+}
+.btn-lm-1 {
+    margin-top: 3.5rem;
+    margin-bottom: 7rem;
+    margin-right: 3rem;
+}
+.soft-details-02 {
+    text-align: center;
+    margin-top: 7rem;
+    border-bottom: 1px solid #c2bdbd;
+    margin-right: 4rem;
+    margin-bottom: 0.8rem;
+
+}
+.soft-details-02 h2 {
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+}
+.col-7 {
+    margin-bottom: 1rem;
+}
+.col-7 h1 {
+    padding-bottom: 1rem;
+    color: green;
+    font-family: sans-serif;
+}
+.col-7 h3 {
+    padding-bottom: 0.8rem;
+}
+.col-7 p {
+    padding-bottom: 0.8rem;
+    color: #888585;
+}
+.col-8 {
+    margin-top: 5rem;
+    
+}
+.col-8 img {
+    width: 150px;
+
+
+    
+}
+
+.col-8-1 {
+    width: 150px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.col-8-2 {
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    
+}
+.col-8-2 h1 {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+.col-8-3 {
+    width: 150px;
+    height: 500px;   
+}
+.col-9 {
+    margin-top: 4.5rem;
+    flex-basis: 20%;
+    min-width: 250px;
+    padding-top: 4rem;
+    
+}
+.col-9 h4{
+    padding-bottom: 1rem;
+  
+}
+.col-9 p{
+    padding: 5px 0;
+}
+.col-9 a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.col-9 p :hover {
+    color: rgb(42, 163, 42);
+}
+.col-9-1 {
+    padding-left: 2.5rem
+}
+.col-10 {
+    flex-basis: 50%;
+    min-width: 500px;
+    margin-top: 3rem;
+    margin-bottom: 0;
+   
+}
+.col-10 a {
+    border: 1px solid #666;
+    border-radius: 50%;
+    padding: 12px 16px 12px 16px;
+    color: green;
+   text-decoration: none;  
+   margin-left: 0.5rem;
+}
+.col-10 a:hover {
+    background: #999797;
+} 
+
+.col-10 i {
+    font-size: 12px;
+    font-weight: 400;
+}
+.col-10-1 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 6rem;
+}
+#preloader {
+    background: rgb(54, 54, 54) url(images/loader.gif) no-repeat center center;
+    background-size: 5%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
